@@ -1,5 +1,6 @@
 def add_numbers(a, b):
-    return a + c
+    # MY-FEATURE branch: product (conflicts with main on purpose)
+    return a * b
 
-result = add_numbers(5, 5)
+result = add_numbers(3, 4)
 print(result)
